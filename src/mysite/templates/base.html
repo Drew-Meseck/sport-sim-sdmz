@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SDMZ Ball</title>
-        </head>
-<body>
-    {% block content %}
-        replace me
-    {% endblock %}
-    </body>
+        {% load static %}
+        <link rel="stylesheet" href= "{% static 'css/style.css' %}">
+        <title>My Project</title>
+    </head>
 
+    <body>
+    {% block content %}{% endblock content %}
+    </body>
 </html>

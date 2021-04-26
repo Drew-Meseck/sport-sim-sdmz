@@ -21,8 +21,7 @@ from pages import views
 urlpatterns = [
     path('', views.home_view),
     path('home/', views.home_view),
-    path('simulation/', include('simulation.urls')),
+    path('games/', views.games_view),
     path('admin/', admin.site.urls),
-    path('standings/', views.standings_view),
-    path('games/', views.games_view)
+    path('standings/', views.standings_view)
 ]

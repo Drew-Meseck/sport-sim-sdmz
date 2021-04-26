@@ -8,7 +8,7 @@ def home_view(request, *args, **kwargs):
     return render(request, "home.html", {})
 
 def games_view(request, *args, **kwargs):
-    return render(request, "home.html", {})
+    return render(request, "simulation.html", {})
 
 def standings_view(request, *args, **kwargs):
-    return render(request, "home.html", {})
+    return render(request, "standings.html", {})
