@@ -3,10 +3,18 @@
     <head>
         {% load static %}
         <link rel="stylesheet" href= "{% static 'css/style.css' %}">
-        <title>My Project</title>
+        <title>SDMZ Ball</title>
     </head>
 
     <body>
-    {% block content %}{% endblock content %}
+        {% include 'navbar.html' %}
+
+    {% block content %}
+        replace me
+    {% endblock content %}
+
+    {% block con2 %}
+        replace me
+    {% endblock con2 %}
     </body>
 </html>
