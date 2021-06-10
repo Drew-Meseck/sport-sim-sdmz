@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS teams;
+DROP TABLE IF EXISTS players;
+DROP TABLE IF EXISTS prospects;
+
+CREATE TABLE user();
+
+CREATE TABLE teams();
+
+CREATE TABLE players();
+
+CREATE TABLE prospects();
